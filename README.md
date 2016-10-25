@@ -37,6 +37,10 @@ cd ccc-app
 ```sh
 npm install
 ```
+En Arch Linux, instalar ciertas dependencias por separado puede resolver ['doPararell' freeze](https://github.com/npm/npm/issues/13782).
+```sh
+npm install webpack webpack-dev-server; npm install
+```
 
 **3. Desarrollar:**
 >
